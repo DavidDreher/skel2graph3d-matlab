@@ -1,6 +1,6 @@
-clear all;
+clearvars;
 close all;
-
+addpath(fullfile(fileparts(mfilename('fullpath')), '..'));
 % load example binary skeleton image
 load skel
 
